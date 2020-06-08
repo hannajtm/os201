@@ -1,6 +1,11 @@
 ## Hanna Jannatunna'iim
-hello! \n
-welcome to my page! my name is Hanna Jannatunna'iim.
+---
+---
 
-want to learn about Operating Systems? \n
-click [here] (URLs/)
+Hello!
+
+
+Welcome to my page! my name is Hanna Jannatunna'iim.
+
+
+Want to learn about Operating Systems? click [here] (URLs/)
