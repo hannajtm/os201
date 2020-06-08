@@ -2,7 +2,7 @@
 permalink: /URLs/
 ---
 
-#Links for learn Operating Systems
+#Links for learn about Operating Systems
 
 [OS.VLSM.ORG](https://os.vlsm.org/)
 
