@@ -1,0 +1,36 @@
+Script started on Tue 09 Jun 2020 09:08:47 AM WIB
+]0;hanna.jannatunnaiim@badak: ~hanna.jannatunnaiim@badak:~$  [KPS1="$ "
+$ echo $GitHubUser
+hannajtm
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200609-090917-35fb-hanna.jannatunnaiim/> 
+$ PS1="\$(eval \$PSTAMP)"
+200609-090924-ced0-hanna.jannatunnaiim/> echo -e $CEKSAYA
+hannajtm ZCZCSCRIPTSTART 200601-164104 hannajtm 
+hannajtm hannajtm 200601-164127-8e52-hanna.jannatunnaiim/ 200601-164127 SEQOK SUMOK 8e52c5fd 
+hannajtm hannajtm 200601-164136-a97f-hanna.jannatunnaiim/ 200601-164136 SEQOK SUMOK a97ff54f 
+hannajtm hannajtm 200601-164143-cbbd-hanna.jannatunnaiim/ 200601-164143 SEQOK SUMOK cbbde511 
+hannajtm hannajtm 200601-164152-95e7-hanna.jannatunnaiim/ 200601-164152 SEQOK SUMOK 95e7dc5f 
+hannajtm ZCZCSCRIPTSTOP 200601-164204 SEQOK 
+
+200609-090930-1b7c-hanna.jannatunnaiim/> echo -e $CEKSEBELA1
+hannajtm ZCZCSCRIPTSTART 200606-001954 hanrichie 
+hannajtm hanrichie 200606-001954-7f89-hanrichie/ 200606-001954 SEQOK SUMOK 7f89a55f 
+hannajtm hanrichie 200606-001955-aff9-hanrichie/ 200606-001955 SEQOK SUMOK aff9aef6 
+hannajtm hanrichie 200606-001957-a13b-hanrichie/ 200606-001957 SEQOK SUMOK a13b6ac0 
+hannajtm hanrichie 200606-002003-b50a-hanrichie/ 200606-002003 SEQOK SUMOK b50a87fe 
+hannajtm ZCZCSCRIPTSTOP 200606-002007 SEQOK 
+
+200609-090958-6986-hanna.jannatunnaiim/> echo -e $CEKSEBELA2
+hannajtm ZCZCSCRIPTSTART 200530-122830 HaroldHS16 
+hannajtm HaroldHS16 200530-122929-1348-harold.hotma/ 200530-122929 SEQOK SUMOK 1348cdaa 
+hannajtm HaroldHS16 200530-122944-2715-harold.hotma/ 200530-122944 SEQOK SUMOK 27155051 
+hannajtm HaroldHS16 200530-122954-d72c-harold.hotma/ 200530-122954 SEQOK SUMOK d72c9854 
+hannajtm ZCZCSCRIPTSTOP 200530-123005 SEQOK 
+
+200609-091007-992f-hanna.jannatunnaiim/> exit
+exit
+
+Script done on Tue 09 Jun 2020 09:10:14 AM WIB
