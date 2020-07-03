@@ -1,15 +1,15 @@
-Script started on Mon 01 Jun 2020 04:41:04 PM WIB
+Script started on Fri 03 Jul 2020 01:22:44 PM WIB
 ]0;hanna.jannatunnaiim@badak: ~hanna.jannatunnaiim@badak:~$ PS1="$ "
-$ echo $GitHubUser
+$ date
+Fri Jul  3 13:23:17 WIB 2020
+$ echo $HOSTNAME
+badak
+$  echo $akunGitHub
 hannajtm
 $ echo $PSTAMP
-TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
-$ eval $PSTAMP
-200601-164127-8e52-hanna.jannatunnaiim/> 
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ PS1="\$(eval \$PSTAMP)"
-200601-164136-a97f-hanna.jannatunnaiim/> date
-Mon Jun  1 16:41:43 WIB 2020
-200601-164143-cbbd-hanna.jannatunnaiim/> gpg2 --list-keys
+200703-132430-c332-hanna.jannatunnaiim/> gpg2 --list-keys
 /home/fasilkom/mahasiswa/h/hanna.jannatunnaiim/.gnupg/pubring.gpg
 -----------------------------------------------------------------
 pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
@@ -24,7 +24,7 @@ pub   4096R/9FA591CB 2020-06-01
 uid       [ultimate] hanna jannatunnaiim <hanna.jannatunnaiim@ui.ac.id>
 sub   4096R/5571CC3D 2020-06-01
 
-200601-164152-95e7-hanna.jannatunnaiim/> exit
+200703-132437-97cb-hanna.jannatunnaiim/> exit
 exit
 
-Script done on Mon 01 Jun 2020 04:42:04 PM WIB
+Script done on Fri 03 Jul 2020 01:25:00 PM WIB
