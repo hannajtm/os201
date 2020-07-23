@@ -1,0 +1,107 @@
+Hanna Jannatunnaiim / B / 1806146985 / hannajtm
+
+Pelaksanaan OS201
+================
+
+Buat sebuah catatan singkat pelaksanaan mata ajar OS selama semester ini.
+==============================================================
+Pelaksanaan mata kuliah OS semester ini dilaksanakan dengan 2 metode. Metode yang pertama untuk awal semester hingga UTS, pelaksanaan melalui pertemuan tatap muka. Metode yang kedua yaitu setelah UTS karena ada nya pandemi COVID-19, maka pelaksanaan melalui metode pembelajaran jarak jauh. Materi, demo, dan latihan soal dapat diakses salah satunya terdapat di  https://os.vlsm.org/. Selain itu, materi juga dapat diakses melalui scele.cs.ui.ac.id yang terhubung dengan https://os.vlsm.org/. Demo mendukung para mahasiswa untuk mempelajari setiap materi serta dapat dituntaskan guna mendapatkan pemahaman dan pendalaman materi. Mencoba dan memahami demo dapat dilakukan kapan saja, namun umumnya dilakukan setiap minggu. Selain itu, terdapat media memo sebagai catatan penting atau ringkasan dari materi yang telah dipelajari yang diisi setiap minggunya. Pada metode tatap muka, nilai partisipasi diambil apabila peserta bertanya atau menjawab. Selain itu, dibuat pula grup WhatsApp untuk memperlancar komunikasi dengan dosen serta menyimpan dokumentasi hasil pembelajaran di kelas. Sebelum masa pembelajaran jarak jauh, pertemuan kelas biasanya dilakukan dua kali seminggu. Kemudian, media penyampaian materi dan demo diganti melalui YouTube selama masa pembelajaran jarak jauh. Selain itu, terdapat diskusi pada forum di scele.cs.ui.ac.id untuk mendukung pembelajaran yang lebih mendalam. 
+
+
+Bandingkan pelaksanaan pengajaran sebelum dan sesudah UTS.
+=====================================================
+Sebelum UTS :
+1) Pelaksanaan pengajaran dilakukan secara tatap muka di kelas dua kali seminggu
+
+2) Membuat Memo tiap minggunya yang berisi materi pengajaran atau ringkasan dan di scan barcode nya
+
+3) Melakukan tanya jawab di dalam kelas mengenai demo
+
+4) Poin partisipasi diberikan ketika mahasiswa bertanya atau menjawab pada saat di kelas
+
+Sesudah UTS :
+1) Pelaksanaan pengajaran dilakukan secara online dan melalui video yang sudah tertera pada SCELE serta YouTube
+
+2) Penjelasan demo disampaikan melalui YouTube
+
+3) Tetap membuat memo, namun tidak di scan barcode nya
+
+4) Melakukan tanya jawab lewat forum scele baik mengenai demo ataupun materi pembelajaran
+
+
+
+Bandingkan pelaksanaan UTS OS dengan UTS lainnya.
+===========================================
+UTS OS :
+1) Soal terdiri dari isian dan esai
+
+2) Pelaksanaan ujian berbasis kertas
+
+3) Apabila dibandingkan dengan UTS OS tahun lalu, tahun ini lebih banyak soal dengan tipe programming, sedangkan UTS OS tahun-tahun sebelumnya terdapat benar atau salah
+
+UTS lainnya :
+1) Soal mata kuliah Sistem Informasi Akuntansi hanya terdiri dari pilihan ganda
+
+2) Soal mata kuliah Sistem-Sistem Perusahaan terdiri dari pilihan ganda, benar atau salah, dan esai
+
+3) Soal mata kuliah Basis Data terdiri dari pilihan ganda dan esai
+
+4) Soal mata kuliah Statistika dan Probabilitas dan Aljabar Linear terdiri dari esai
+
+5) Pelaksanaan ujian berbasis scele
+
+6) Untuk soal pilihan ganda dan benar atau salah berbentuk kuis
+
+7) Untuk soal esai dikerjakan pada kertas, lalu di foto dan di unggah ke SCELE
+
+8) Soal mata kuliah Analisis Numerik terdiri dari esai dan membuat program. Soal esai dikelompokkan dengan topik masing-masing dengan tiap kelompok soal terdiri atas banyak soal. Mahasiswa dibebaskan memilih soal, namun diwajibkan untuk mengisi minimal satu dari setiap topik yang diujikan dan diperhatikan agar dapat mencapai 100 poin. Jawaban di foto dan di unggah ke SCELE.
+
+9) Soal mata kuliah Advanced Program terdiri dari pilihan ganda, isian, dan mengedit program melalui GitLab. Pilihan ganda dan isian dilakukan di SCELE. Untuk sesi edit program, terdiri dari 3 sesi waktu.
+Soal mata kuliah Teori Bahasa dan Automata terdiri dari esai melalui Aren. Mahasiswa melakukan scan dan mengunggahnya ke server Aren.
+
+
+
+Bandingkan pelaksanaan UAS OS dengan UAS lainnya.
+===========================================
+UAS OS :
+1) Dilaksanakan dalam beberapa tahap (PAS0-PAS5). Yang dimulai tanggal 8 Juni sampai 7 Juli 2020.
+
+2) Setiap tahapnya memiliki waktu yang sangat panjang, dibandingkan dengan UAS mata kuliah lainnya
+
+3) Pengumuman terkait ujian diberikan melalui grup WhatsApp setiap harinya.
+
+4) Metode pengumpulan yaitu dengan push berkas ke repo github.
+
+5) Pengisian absen juga dilakukan melalui github.
+
+6) Tahap 2 sampai 4 dikerjakan secara berkelompok, sedangkan tahap persiapan dan 5 dikerjakan secara individu
+Pembentukkan kelompok dilakukan melalui github dengan pembebasan dalam memilih anggota
+
+7) Tahap persiapan dijelaskan langkah-langkah melalui forum SCELE
+
+8) Tahap 1 diberikan melalui grup WhatsApp
+
+9) Tahap 2 - 5 diunggah melalui github dan harus di-decrypt terlebih dahulu 
+
+10) Sebagian besar berkas yang di push ke github harus di enkripsi terlebih dahulu. Beberapa berkas juga ada yang diminta untuk di tanda-tangan digital saat enkripsi.  
+
+11) Agar berkas yang diunggah ke repo tidak dapat dilihat oleh selain orang yang berhak untuk melihat, key enkripsi hanya dimiliki oleh peserta ujian pembuat file dan dosen yang bersangkutan
+
+UAS lainnya :
+1) UAS mata kuliah lainnya hanya dilakukan 1 tahap saja dan dalam satu waktu.
+Pelaksanaan UAS Teori Bahasa dan Automata menggunakan server aren. Soal pembuatan machine akan diterima oleh judge otomatis yang hasilnya akan keluar setelah ujian selesai, sedangkan untuk soal esai akan upload hasil scan ke tempat yang sudah disediakan.
+
+2) Pelaksanaan UAS Statistika dan probabilitas dilaksanakan dalam total 3 jam, dengan dibagi menjadi beberapa tahap yang masing masing tahap akan keluar 1-3 soal yang dikerjakan dengan kurun waktu 15-25 menit. Dalam pengerjaan, diawasi dengan kamera yang menyala menggunakan platform google meet dengan pembatasan penggunaan alat elektronik selain laptop. Penggunaan handphone hanya diperbolehkan saat foto hasil jawaban untuk diunggah ke SCELE yang sudah diberikan waktu tersendiri, namun apabila sudah selesai sebelum waktunya boleh dilakukan proses foto dan unggah
+
+3) Soal mata kuliah Basis Data terdiri dari pilihan ganda dan esai. Dilaksanakan dengan total 3 jam pengerjaan pada scele.cs.ui.ac.id. Untuk soal pilihan ganda menggunakan fitur kuis di SCELE, nilai dapat langsung diketahui setelah submit. Untuk esai dapat mengisi langsung di tempat isian SCELE dan ada yang perlu difoto serta diunggah untuk jenis soal yang perlu menggambar.
+
+4) Soal mata kuliah Sistem-Sistem Perusahaan terdiri dari pilihan ganda dan esai. Pilihan ganda berbentuk kuis, sedangkan esai dapat langsung diisi pada tempat isian tanpa perlu menulis di kertas yang harus difoto dan diunggah ke SCELE. Dilaksanakan dengan total 2 jam 45 menit pengerjaan pada scele.cs.ui.ac.id
+
+5) Soal mata kuliah Sistem Informasi Akuntansi terdiri dari pilihan ganda dan esai. Dilaksanakan dengan total 3 jam pengerjaan pada scele.cs.ui.ac.id. Untuk soal pilihan ganda, nilai dapat langsung diketahui setelah submit.
+
+6) Soal mata kuliah Advance program terdiri dari pilihan ganda, esai, dan melengkapi program. Ketiga-tiganya dilaksanakan dengan menggunakan scele.cs.ui.ac.id dengan total waktu pengerjaan 3 jam.
+
+7) Soal mata kuliah Sistem Cerdas hanya terdiri dari esai Diberikan waktu 2 jam 45 menit untuk mengerjakan serta 15 menit untuk mengunggah jawaban. Bersifat closed book dengan sebelumnya membuat perjanjian untuk berlaku jujur selama ujian. Selama ujian, semua berkas perkuliahan yang ada di SCELE di hide.
+
+8) Soal mata kuliah Analisis numerik terdiri dari esai dan membuat program. Soal esai dikelompokkan dengan topik masing-masing dengan tiap kelompok soal terdiri atas banyak soal. Akan tetapi, tiap topik memiliki nilai maksimum sehingga tidak perlu dikerjakan semuanya. Selain itu, terdapat banyak soal yang belum pernah diajarkan sebelumnya sehingga mahasiswa dituntut untuk mencari solusi di Google. Waktu pengerjaan adalah 3 jam.
+
