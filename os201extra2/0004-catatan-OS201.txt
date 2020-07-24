@@ -1,0 +1,76 @@
+Hanna Jannatunnaiim / B / 1806146985 / hannajtm
+
+Catatan
+=======
+1) Informasi tambahan didapatkan dari hasil form evaluasi pelaksanaan UAS OS yang sudah disebarkan kepada peserta UAS OS kelas A B C genap 2020
+2) Jumlah pengisi form sebanyak 81 orang
+3) Skala penilaian tingkat pemahaman dari 1 (tidak paham) sampai 5 (sangat paham)
+4) Skala penilaian tingkat kesulitan dari 1 (sangat mudah) sampai 5 (sangat susah)
+
+
+Buat catatan tambahan untuk pelaksanaan
+=================================
+A. Persiapan UAS
+- 100% pengisi form mengikuti dan selesai mengikuti tahap persiapan 
+- 17,3% pengisi form mengalami kendala
+- Tingkat pemahaman mahasiswa terhadap tahap persiapan sebesar 4.012987013 artinya rata-rata mahasiswa paham
+- Tingkat kesulitan tahap persiapan sebesar 2.525641026 artinya mahasiswa cukup mudah mengerjakannya
+
+- Kendala :
+1) Kesulitan dalam memahami beberapa perintah yang diberikan
+2) Mahasiswa lupa cara membuat key dan enkripsi
+3) Tidak tahu cara melakukan beberapa perintah
+4) Jaringan yang kurang baik
+5) Server badak mengalami down pada jam tertentu
+6) Mahasiswa pertama kali membuat script
+
+- Kelebihan :
+1) Cukup mudah dilakukan
+2) Terdapat langkah-langkah yang mudah dipahami 
+3) Bobot nilai yang diberikan sangat membantu
+4) Mudah diakses karena penjelasan berada di scele
+5) Waktu yang diberikan cukup lama
+6) Terdapat log untuk memantau kesalahan
+7) Mempermudah untuk tahap selanjutnya terutama hal-hal teknis
+8) Membuat paham apa yang dilakukan oleh command script
+9) Membantu mahasiswa mengingat kembali materi yang sudah dipelajari
+10) Mahasiswa menjadi paham pembuatan script
+
+- Kekurangan :
+1) Kurangnya penjelasan mengenai tujuan persiapan dan gambaran pelaksanaan UAS
+2) Langkah pengerjaan ditulis bergabung dengan penjelasan persiapan sehingga terlihat terlalu padat
+3) Mahasiswa belum terbiasa dengan penggunaan badak dan github dalam waktu yang bersamaan sehingga mahasiswa pada tahap ini cenderung melakukan copy paste dari badak ke github dengan membuat berkas di github secara langsung, tidak melakukan push melalui badak
+
+
+B. Tahap 1
+- 100% pengisi form mengikuti dan selesai mengikuti tahap persiapan 
+- 32,1% pengisi form mengalami kendala
+- Tingkat pemahaman mahasiswa terhadap tahap 1 sebesar 3.820512821 artinya rata-rata mahasiswa cukup paham 
+- Tingkat kesulitan tahap 1 sebesar 2.756410256 artinya mahasiswa cukup mudah mengerjakannya
+
+- Kendala :
+1) Kemampuan penggunaan terminal pada linux yang kurang menjadi penghambat proses pengerjaan
+2) Kemampuan untuk pembuatan script yang menurut saya sudah cukup advanced yang sangat dibutuhkan disini cukup menghambat proses pengerjaan
+3) Jaringan yang kurang baik
+4) Perbedaan format berkas apabila mengerjakan bukan di server badak
+5) Kesulitan mendapat kelompok
+6) Beberapa mahasiswa belum familiar dengan penggunaan github
+7) Terjadi race condition pada saat absen dan push berkas ke github
+
+- Kelebihan :
+1) Adanya dokumentasi yang diberikan 
+2) Adanya contoh mengenai github pages yang telah memenuhi syarat. Yaitu, pada github cbkadal.
+3) Menjadi tahu bagaimana caranya scripting tingkat lanjut, namun bagusnya lagi hal ini tidak menjadi urgensi mahasiswa karena mahasiswa tetap dapat menyelesaikan tahap ini dengan melakukan pengecekan secara manual
+4) Menjadi tahu bagaimana membuat endpoint baru untuk url pada github pages
+5) Terdapat pemahaman mengenai cara konversi suatu string menggunakan sha1sum
+6) Membantu mahasiswa untuk dapat mengubah web pribadi sesuai keinginan masing dengan menggunakan jekyll dan tema standar yang disediakan oleh github pages
+
+- Kekurangan :
+1) Kurang penjelasan terkait dengan soal yang dimaksud, beberapa seperti contoh SEQNO dan SUMNO yang tidak terdapat pada soal. Hal ini baru dapat diketahui setelah terdapat mahasiswa yang menanyakan melalui forum di scele
+2) Tingkat kesalahan yg tinggi jika dikerjakan secara manual
+3) Bentuk soal kurang rill, sehingga yg bisa menyelesaikan soal tsb belum tentu yau bagaimana cara mengaplikasikanya di kehidupan nyata
+4) Mekanisme pembagian kelompok kurang teratur
+5) Deskripsi tugas seringkali berubah atau revisi selama proses ujian berlangsung
+
+to be continue
+
