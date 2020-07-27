@@ -1,3 +1,6 @@
+REV01 Mon 27 Jul 2020 18:28:00 WIB
+==================================
+
 Hanna Jannatunnaiim / B / 1806146985 / hannajtm
 
 Catatan
@@ -72,5 +75,64 @@ B. Tahap 1
 4) Mekanisme pembagian kelompok kurang teratur
 5) Deskripsi tugas seringkali berubah atau revisi selama proses ujian berlangsung
 
-to be continue
+
+C. Tahap 2
+- 97,5% pengisi form boleh mengikuti tahap 2, namun hanya 76,5% pengisi form yang selesai dan mengumpulkan tugas pada tahap 2
+- 55,6% pengisi form mengalami kendala
+- Tingkat pemahaman mahasiswa terhadap tahap 2 sebesar 3.013333333 artinya rata-rata mahasiswa cukup paham 
+- Tingkat kesulitan tahap 2 sebesar 3.706666667 artinya mahasiswa cukup kesulitan mengerjakannya
+
+- Kendala :
+1) Tidak bisa push berkas sehingga berkas tidak terkumpul karena tidak dapat akses kawung dan badak
+2) Tidak biasa membuat program dengan bahasa C
+3) Kurang memahami materi dan sulit mengimplementasikan hal yang sudah dipelajari sehingga lebih lama memahami dibandingkan mengerjakan tugas
+4) Race condition saat pengumpulan berkas
+5) Perubahan yang cukup besar antara tahap 1 dengan tahap 2 yang ternyata tahap 2 jauh lebih rumit dibandingkan tahap 1, membuat mahasiswa kebingungan.
+6) Pada awal pengerjaan sangat terhambat pada implementasi mmap untuk multithreading yang tidak ada pada weekly demo
+7) Kondisi laptop hang
+8) Jaringan yang kurang baik
+9) Bingung jenis GPG yang harus digunakan
+10) Sulit mendapatkan kelompok
+11) Selama daring cukup sulit untuk belajar pemahaman baru
+
+- Kelebihan :
+1) Tugas dilakukan berkelompok sehingga memudahkan mahasiswa untuk diskusi dan bekerja sama
+2) Membuat mahasiswa mampu mengimplementasikan materi shared memory secara langsung
+3) Menjadi lebih tahu bagaimana semafor bekerja untuk menghindari terjadinya race condition dalam mengakses memori yang sama bersamaan
+4) Menjadi lebih tahu bagaimana penggunaan semafor biasa dengan semafor untuk mutex
+5) Menjadi lebih tahu bagaimana cara memetakan sebuah file ke memory di bahasa C dengan menggunakan mmap
+
+- Kekurangan :
+1) Memahami soal lebih susah dibandingkan memahami langsung dengan melihat programnya, penjelasan yang dijelaskan di soal seharusnya dapat lebih jelas tanpa melihat ke program.
+2) Beberapa seperti TIME[16], nilai dari 16 diperoleh darimana kurang jelas, baru menjadi jelas setelah terdapat salah satu peserta ujian yang menanyakan melalui forum di scele 
+3) Tidak sebanding dengan bobot nilai yang diberikan, di mana ketika UTS bobot soal seperti ini adalah 6%
+4) Mekanisme pembagian kelompok kurang teratur
+5) Tidak semua anggota mengerjakan tugas dalam kelompok
+6) Deskripsi tugas seringkali berubah atau revisi selama proses ujian berlangsung
+
+
+D. Tahap 3
+- Tahap 3 merupakan pengembangan lebih lanjut dari tahap 2. 
+- 87,7% pengisi form boleh mengikuti tahap 3, namun hanya 79% pengisi form yang selesai dan mengumpulkan tugas pada tahap 3
+- 32,1% pengisi form mengalami kendala karena pada tahap ini tidak terlalu banyak yang berbeda dari tahap 3
+- Tingkat pemahaman mahasiswa terhadap tahap 3 sebesar 3.101449275 artinya rata-rata mahasiswa cukup paham 
+- Tingkat kesulitan tahap 3 sebesar 3.705882353 artinya mahasiswa cukup kesulitan mengerjakannya karena pada tahap ini merupakan pengembangan lebih lanjut dari tahap 2
+
+- Kendala :
+1) Hanya beberapa orang yang mengerti dan juga aktif dalam kelompok karena sudah dikelompokan berdasarkan status
+2) Sulit untuk mempropagasi revisi saat diminta ke seluruh anggota kelompok. Kadang ada yang sulit dihubungi, menyerah, atau ada keperluan lainnya
+3) Beberapa anggota sulit dihubungi
+4) Jaringan yang kurang baik
+5) Anggota kelompok kurang kooperatif dan tidak memahami materi sehingga perlu bertanya-tanya kepada kelompok lain
+
+- Kelebihan :
+1) Mahasiswa sudah terbiasa dengan tahap 2. Karena mirip dengan tahap 2, maka sudah familiar sehingga lebih mudah untuk mengerjakan tahap 3
+2) Deadline panjang untuk status T3TERM
+
+- Kekurangan :
+1) Ada bagian yang penting tapi ambigu/kurang ditekankan, seperti penamaan file dan sebagainya
+2) Hanya satu file yang diedit sehingga sulit dalam pembagian tugas
+3) Batas kurang jelas antara keterangan soal yang kurang jelas dengan "kreativitas masing masing" sehingga menimbulkan perdebatan
+4) Kurang terlihat batasan tugas tiap anggota dalam kelompok
+5) Banyak hal-hal baru yang belum dijelaskan dalam kodenya sehingga harus ekplorasi mandiri yang cukup sulit
 
