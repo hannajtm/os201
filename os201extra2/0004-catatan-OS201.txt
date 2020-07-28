@@ -1,3 +1,4 @@
+REB02 Tue Jul 28 15:30:00 WIB 2020
 REV01 Mon Jul 27 18:28:00 WIB 2020
 ==================================
 
@@ -134,5 +135,128 @@ D. Tahap 3
 2) Hanya satu file yang diedit sehingga sulit dalam pembagian tugas
 3) Batas kurang jelas antara keterangan soal yang kurang jelas dengan "kreativitas masing masing" sehingga menimbulkan perdebatan
 4) Kurang terlihat batasan tugas tiap anggota dalam kelompok
-5) Banyak hal-hal baru yang belum dijelaskan dalam kodenya sehingga harus ekplorasi mandiri yang cukup sulit
+5) Banyak hal-hal baru yang belum dijelaskan dalam kodenya sehingga harus eksplorasi mandiri yang cukup sulit
+
+
+E. Tahap 4
+- 37% pengisi form boleh mengikuti tahap 4, namun hanya 35,8% pengisi form yang selesai dan mengumpulkan tugas pada tahap 4
+- 22,2% pengisi form mengalami kendala
+- Tingkat pemahaman mahasiswa terhadap tahap 4 sebesar 2.942857143 artinya rata-rata mahasiswa kurang paham 
+- Tingkat kesulitan tahap 4 sebesar 3.714285714 artinya mahasiswa cukup kesulitan mengerjakannya
+
+- Kendala :
+1) Masalah koordinasi revisi sehingga bisa timbul perbedaan edisi kode
+2) File-file di folder uas-pribadi dan uas-bersama yang harus terus disesuaikan cukup membingungkan dan harus terus-menerus cross check dengan repository cbkadal
+3) Saat menambahkan akun github sebanyak jmlh anggota kelompok dalam code nya, terjadi sedikit error di outputnya
+
+- Kelebihan :
+1) Bobot pengerjaan sesuai dengan materi dan waktu
+2) Mengerti menggunakan semaphore synchronous
+3) Merupakan tugas kelompok jadi bisa saling bantu
+4) Ada beberapa method yang bisa diambil dan dimodifikasi dari soal tahap sebelumnya
+5) Ada penjelasan tentang apa yang harus dikerjakan
+
+- Kekurangan :
+1) Materi yang diujikan sulit, sumber belajar untuk soal hanya materi
+2) Rancu dengan bagian yang boleh diimplementasikan sendiri
+
+
+F. Tahap 5
+- 22,2% pengisi form boleh mengikuti tahap 5, namun hanya 17,3% pengisi form yang selesai dan mengumpulkan tugas pada tahap 5
+- 19,8% pengisi form mengalami kendala
+- Tingkat pemahaman mahasiswa terhadap tahap 5 sebesar 2.192307692 artinya rata-rata mahasiswa kurang paham
+- Tingkat kesulitan tahap 5 sebesar 3.807692308 artinya mahasiswa cukup kesulitan mengerjakannya
+- Tahap tersulit di mana pada tahap ini memiliki tingkat pemahaman yang paling rendah dan tingkat kesulitan yang tertinggi
+
+- Kendala :
+1) Kurang pemahaman tentang FUSE
+2) Kurang mengerti perintah soal dan sulit memahami berkas-berkas yang diberikan
+3) File yang dikumpulkan tidak terdeteksi
+
+- Kelebihan :
+1) Mahasiswa menjadi lebih tahu salah satu implementasi FUSE
+2) Termasuk mudah apabila sudah mengerti materi FUSE
+3) Sudah ada dokumentasi terkait soal
+
+- Kekurangan :
+1) Kurang penjelasan teknis
+2) Dokumentasi terkait soal sulit dimengerti
+3) Perubahan jenis tugas dari kelompok menjadi individu di mana pada tahap 2 - 4 merupakan tugas kelompok
+4) Waktu pengerjaan singkat
+5) Perubahan bobot nilai menjadi bergantung pada hasil pekerjaan
+6) Sumber belajar hanya materi
+
+
+G. Kritik
+- Pelaksanaan UAS OS cukup lama sehingga keluar dari jadwal UAS seharusnya.
+- Tidak menyalahkan implementasi yang berbeda, sedangkan output sudah sama dengan yang diberikan
+- Kekurangan pelatihan demonstrasi dari dosen
+- Karena pengerjaannya kelompok, kemungkinan adanya freerider di kelompok sangat tinggi. Hal ini menyebabkan nilai tinggi tapi tidak sesuai dengan skill OS-nya, namun untuk orang yang mengerti dan menyelesaikan programnya karena kesalahan prosedural seperti enkripsi, sha1sum, salah nama file mendapat nilai kecil
+
+
+H. Saran
+- Pelaksanaannya dipercepat menjadi hanya 1-3 tahap dan jarak antar tahap tidak terlalu lama
+- Dalam sistemnya sudah baik karena diperbarui secara bertahap baik dalam peraturan atau file yang dikumpulkan, namun untuk terkait jadwal bisa lebih dipastikan kembali seperti di awal diberitahu ada berapa tahapan dan tanggal pelaksanaannya sudah ditetapkan di awal sehingga tidak ada pihak yang dirugikan karena pindah waktu
+- Sebaiknya pembentukan kelompok tidak perlu bertahap-tahap, cukup satu orang saja mendaftarkan 1 kelompok
+- Tipe soal dapat dibuat lebih rill dalam artian jelas manfaat serta penggunaanya dikehidupan nyata. Bisa mengangkat masalah masalah yang memang ada di kehidupan nyata
+- Dibuat lebih simple dengan proyek kelompok yang dapat selesai dalam waktu 3-5 hari
+- Sebaiknya Berkas soal pada setiap tahapan dipost di scele dalam bentuk tulisan untuk memudahkan dalam mengakses soal, terutama pada handphone.
+- Tidak menggunakan tahapan-tahapan, melainkan dilaksanakan dalam satu waktu dengan menyertakan seluruh tugas sekaligus, sehingga mahasiswa mendapatkan kesempatan untuk mengerjakan semua tugas tersebut (tidak terhenti karena suatu tahapan)
+- Review pembelajaran jauh hari sebelum ujian
+- Pelaksanaan seperti kelas D / E dengan pelaksanaan ujian selama 2 hari, namun mencakup semua materi
+- Batasan untuk pembagian tugas kerja apabila ujian bersifat kelompok
+
+
+
+Berikan penjelasan (dugaan) berikut ini
+==============================
+A. Scripting 
+Scripting adalah kegiatan menulis serangkaian perintah untuk dieksekusi oleh shell. Scripting dapat menggabungkan perintah yang ingin dilakukan pada bash yang panjang dan berulang dari ke dalam satu script line function call. Hasil Scripting yang disimpan dapat mempermudah user untuk record perintah yang pernah dilakukan dan recalling perintah yang sudah dilakukan. 
+Bash Linux tersedia di hampir semua varian Linux dan tidak memerlukan instalasi terpisah, untuk memulai Scripting dapat menggunakan command "script namafile.txt" namafile.txt adalah file baru yang akan menyimpan hasil dari script tersebut. hasil dari script memuat :
+1. Tanggal dan jam dari "Script started"
+2. Tanggal dan jam dari "Script done"
+3. Tanggal dan jam dari "Prompt"
+Untuk menyelesaikan script dapat menggunakan command "exit" dan hasil script sudah tersimpan pada file baru tadi.
+
+
+B. FUSE 
+FUSE adalah singkatan dari Filesystem in Userspace merupakan suatu software interface pada UNIX. Fitur paling penting dari FUSE adalah FUSE memperbolehkan non-privileged user untuk melakukan mount dengan aman. Biasanya FUSE digunakan untuk membuat virtual file system.  Untuk membuat FUSE ada 3 hal yang harus dibuat, yaitu kernel side module, libfuse, dan aplikasinya
+Untuk mengimplementasikan file system, kita harus menulis program terlebih dahulu yang akan berfungsi untuk melakukan mount pada file system yang baru, merespon jika ada operasi read/write/stat dan program ini juga akan akan tertaut dengan libfuse. Ketika file system berhasil di mount, handler akan teregister dengan kernel dan meneruskan operasi read/write/stat kepada handler untuk dilakukan respon terhadap operasi tersebut.
+
+
+C. Git
+Git adalah version control system yang digunakan para developer untuk mengembangkan software secara bersama-bersama. Fungsi utama git yaitu mengatur versi dari source code program Anda dengan mengasih tanda baris dan code mana yang ditambah atau diganti.
+Perintah-perintah dasar git:
+Git init : untuk membuat repository pada file lokal yang nantinya ada folder .git
+Git status : untuk mengetahui status dari repository lokal
+Git add : menambahkan file baru pada repository yang dipilih
+Git commit : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
+Git push : untuk mengirimkan perubahan file setelah di commit ke remote repository.
+Git branch : melihat seluruh branch yang ada pada repository
+Git checkout : menukar branch yang aktif dengan branchyang dipilih
+Git merge : untuk menggabungkan branch yang aktif dan branch yang dipilih
+Git clone : membuat Salinan repository lokal
+
+
+D. GitHub
+GitHub adalah sebuah aplikasi berbasis website dengan Version Control System (VCS) yang menyediakan layanan untuk menyimpan repository dengan gratis. Repository merupakan tempat yang dapat Anda gunakan untuk menyimpan berbagai file berupa source code. Namun tak hanya itu, dengan aplikasi ini Anda juga dapat melakukan kolaborasi dalam mengerjakan project tertentu agar dapat terus melakukan update secara rutin, termasuk melacak dan menyimpan perubahan-perubahan yang terjadi dalam project tersebut. Aplikasi ini termasuk sangat populer dan banyak digunakan termasuk oleh perusahaan-perusahaan besar skala gunia seperti Facebook, Google, dan Twitter.
+
+
+E. GitHub Page
+Github juga memiliki kelebihan berupa Github Pages. Github Pages adalah fasilitas hosting web statis (html, css, javascript) yang diberikan secara gratis dengan subdomain .github.io. Github Pages sangat berguna untuk  membuat dokumentasi misalnya untuk suatu repo karena Github Pages dapat mempublikasikan website dari repo kita dengan mudah dan gratis Github Pages.
+Dan untuk mempublikasikan halaman web di Github page dapat dilakukan dengan beberapa cara :
+Github page dari Root repo
+Github page di folder
+Github page di branch gh-page
+GnuPG
+GnuPG adalah suatu software yang dipakai untuk melakukan proses enkripsi data, dekripsi data , dan penandatanganan digital untuk selanjutnya dilakukan proses pertukaran data antar perangkat. GnuPG juga dikenal sebagai GPG yaitu suatu command line yang dapat dijalankan melalui aplikasi Terminal di setiap sistem operasi dengan fitur easy integration dengan aplikasi lainnya. Enkripsi dengan GPG ini sudah mengimplementasikan standar yang dijelaskan dalam RFC4880 (dikenal juga dengan standar PGP). GPG juga dilengkapi dengan fungsi manajemen kunci keamanan seperti pembuatan kunci, penyuntingan kunci, dan penghapusan kunci keamanan.
+Dengan model enkripsi yang digunakan pada GPG, seseorang pasti mempunyai sepasang kunci keamanan yaitu Private Key dan Public Key. Dimana Private Key adalah kunci enkripsi yang hanya boleh diakses oleh pemilik kunci, sedangkan public key sebisa mungkin harus disebarkan seluas-luasnya.
+
+
+F. SHA1SUM
+sha1sum adalah program komputer yang menghitung dan memverifikasi hash SHA-1. Ini biasanya digunakan untuk memverifikasi integritas file. Ini memungkinkan dibandingkan dengan intisari pesan yang diterbitkan untuk memeriksa apakah file tersebut tidak dimodifikasi dari aslinya. SHA-1 menghasilkan nilai hash 160-bit (20 byte) yang dikenal sebagai intisari pesan. sha1sum di instal secara default di sebagian besar distribusi Linux. Varian termasuk shasum (yang memungkinkan SHA-1 hingga SHA-512 fungsi hash untuk dipilih secara manual), sha224sum, sha256sum, sha384sum dan sha512sum, yang menggunakan fungsi hash SHA-2 tertentu, dan sha3sum (yang memungkinkan SHA-3 melalui SHA3- 512, SHAKE, RawSHAKE, dan Keccak berfungsi untuk dipilih secara manual). Meskipun SHA-1 tidak lagi dianggap aman terhadap lawan yang didanai dengan baik, SHA-1 masih banyak digunakan untuk memverifikasi file.
+
+
+G. SHA1SUM.asc
+Format .asc sendiri merupakan format untuk berkas ASCII lapis baja yang digunakan oleh suatu software yang dipakai untuk melakukan proses enkripsi data seperti PGP atau GnuPG. File tersebut berisi pesan yang ditandatangani secara digital dan dapat menyimpan informasi tertulis teks biasa, serta informasi biner yang disandikan sebagai teks. File ASC juga menyertakan kunci sebagai teks yang ditandatangani jelas, yang dapat diverifikasi menggunakan metode otentikasi. Oleh karena itu SHA1SUM.asc merupakan berkas dimana berisi sebuah hasil enkripsi SHA1SUM yang nantinya dapat diverifikasi dan didekripsi (oleh yang berhak) untuk melihat informasi asli yang ada.
 
