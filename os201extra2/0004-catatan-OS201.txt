@@ -1,4 +1,5 @@
-REB02 Tue Jul 28 15:30:00 WIB 2020
+REV03 Wed Jul 29 17:51:00 WIB 2020
+REV02 Tue Jul 28 15:30:00 WIB 2020
 REV01 Mon Jul 27 18:28:00 WIB 2020
 ==================================
 
@@ -259,4 +260,28 @@ sha1sum adalah program komputer yang menghitung dan memverifikasi hash SHA-1. In
 
 G. SHA1SUM.asc
 Format .asc sendiri merupakan format untuk berkas ASCII lapis baja yang digunakan oleh suatu software yang dipakai untuk melakukan proses enkripsi data seperti PGP atau GnuPG. File tersebut berisi pesan yang ditandatangani secara digital dan dapat menyimpan informasi tertulis teks biasa, serta informasi biner yang disandikan sebagai teks. File ASC juga menyertakan kunci sebagai teks yang ditandatangani jelas, yang dapat diverifikasi menggunakan metode otentikasi. Oleh karena itu SHA1SUM.asc merupakan berkas dimana berisi sebuah hasil enkripsi SHA1SUM yang nantinya dapat diverifikasi dan didekripsi (oleh yang berhak) untuk melihat informasi asli yang ada.
+
+
+
+Bahas dari sudut pandang peserta OS201, berkas berikut ini:
+https://rahmatm.samik-ibrahim.vlsm.org/2020/07/exam-from-home-pertama-kali.html
+=================================================================
+A. Tantangan
+Modifikasi terhadap tata cara pengumpulan hasil ujian berhasil dilakukan sehingga membuat ujian menjadi lebih sulit. Kesalahan prosedur yang dilakukan peserta menjadi salah satu kendala yang banyak dialami peserta. Hal ini menyebabkan peserta yang seharusnya dapat lolos suatu tahap menjadi berhenti di tahap tersebut walaupun diberi kesempatan mengulang tahap yang gagal. Terlalu banyak prosedural juga membuat semakin lama waktu peserta untuk mengikuti prosedur tersebut dibandingkan mengerjakan soal yang diberikan. 
+
+
+B. Study From Home
+Pelaksanaan study from home mata kuliah OS ini menurut saya belum efektif. Materi sudah bagus disampaikan melalui video pembelajaran yang di unggah di YouTube, namun peserta kurang mengerti cara implementasi materi tersebut pada permasalahan yang sebenarnya. Hal ini dapat diketahui melalui feedback pelaksanaan UAS OS. Peserta perlu waktu yang lama untuk memahami implementasi materi yang sudah diajarkan. 
+
+
+C. Windows 10 & Font
+Peserta tidak biasa dalam penggunaan sistem di badak. Oleh karena itu, peserta banyak yang melakukan di media lain yang memiliki format text berbeda dengan sistem di badak. 
+
+
+D. Github
+Tidak semua peserta terbiasa menggunakan Github. Hal ini dapat terlihat dari banyak peserta yang awalnya melakukan pembuatan berkas yang secara langsung di Github dan tidak menggunakan metode push melalui badak. Metode tersebut masih belum bermasalah selama penggunaan sebelum UTS sampai sebelum UAS karena penggunaan Github hanya untuk pembuatan log hadir dan telah melakukan demo. Peserta mulai menggunakan metode push melalui badak pada saat pelaksanaan UAS OS karena terdapat format text yang berbeda apabila melakukan pembuatan berkas secara langsung di Github dan copy paste isinya yang diambil dari berkas di badak. 
+
+
+E. Github page
+Mayoritas peserta tidak mengetahui mengenai Github page dan cara pembuatannya. Oleh karena itu, beberapa peserta mengalami kendala dalam pembuatan Github page walaupun sudah diberikan referensi cara pembuatan github page dan contoh github page yang sudah terbuat. Kendala yang terjadi salah satunya yaitu peserta terkadang harus menunggu agak lama agar perubahan yang dilakukan pada Github page terlihat. Peserta beberapa kali merasa kebingungan apakah memang Github page nya belum ke load atau salah pada code yang ditulis. Salah satu alasan peserta membuat Github page yang minimalis karena keterbatasan waktu di mana peserta lebih banyak memahami cara pembuatan Github page dibandingkan membuatnya. Namun, peserta mendapatkan pengetahuan baru mengenai Github pages themes salah satunya yaitu Jekyll, Markdown untuk mengatur style dari text sesuai keinginan, YAML bahasa serialisasi data yang dapat dibaca manusia, dan Front matter untuk mengatur variabel dan metadata seperti judul dan tata letak, halaman atau posting di situs peserta.
 
