@@ -1,3 +1,4 @@
+REV04 Thu Jul 30 12:59:00 WIB 2020
 REV03 Wed Jul 29 17:51:00 WIB 2020
 REV02 Tue Jul 28 15:30:00 WIB 2020
 REV01 Mon Jul 27 18:28:00 WIB 2020
@@ -255,7 +256,7 @@ Dengan model enkripsi yang digunakan pada GPG, seseorang pasti mempunyai sepasan
 
 
 F. SHA1SUM
-sha1sum adalah program komputer yang menghitung dan memverifikasi hash SHA-1. Ini biasanya digunakan untuk memverifikasi integritas file. Ini memungkinkan dibandingkan dengan intisari pesan yang diterbitkan untuk memeriksa apakah file tersebut tidak dimodifikasi dari aslinya. SHA-1 menghasilkan nilai hash 160-bit (20 byte) yang dikenal sebagai intisari pesan. sha1sum di instal secara default di sebagian besar distribusi Linux. Varian termasuk shasum (yang memungkinkan SHA-1 hingga SHA-512 fungsi hash untuk dipilih secara manual), sha224sum, sha256sum, sha384sum dan sha512sum, yang menggunakan fungsi hash SHA-2 tertentu, dan sha3sum (yang memungkinkan SHA-3 melalui SHA3- 512, SHAKE, RawSHAKE, dan Keccak berfungsi untuk dipilih secara manual). Meskipun SHA-1 tidak lagi dianggap aman terhadap lawan yang didanai dengan baik, SHA-1 masih banyak digunakan untuk memverifikasi file.
+sha1sum adalah program komputer yang menghitung dan memverifikasi hash SHA-1. Ini biasanya digunakan untuk memverifikasi integritas file. Ini memungkinkan dibandingkan dengan intisari pesan yang diterbitkan untuk memeriksa apakah file tersebut tidak dimodifikasi dari aslinya. Pada UAS OS genap 2020, file SHA1SUM digunakan sebagai berkas yang menyimpan hash berkas-berkas yang diupload di GitHub. SHA-1 menghasilkan nilai hash 160-bit (20 byte) yang dikenal sebagai intisari pesan. sha1sum di instal secara default di sebagian besar distribusi Linux. Varian termasuk shasum (yang memungkinkan SHA-1 hingga SHA-512 fungsi hash untuk dipilih secara manual), sha224sum, sha256sum, sha384sum dan sha512sum, yang menggunakan fungsi hash SHA-2 tertentu, dan sha3sum (yang memungkinkan SHA-3 melalui SHA3- 512, SHAKE, RawSHAKE, dan Keccak berfungsi untuk dipilih secara manual).
 
 
 G. SHA1SUM.asc
@@ -284,4 +285,44 @@ Tidak semua peserta terbiasa menggunakan Github. Hal ini dapat terlihat dari ban
 
 E. Github page
 Mayoritas peserta tidak mengetahui mengenai Github page dan cara pembuatannya. Oleh karena itu, beberapa peserta mengalami kendala dalam pembuatan Github page walaupun sudah diberikan referensi cara pembuatan github page dan contoh github page yang sudah terbuat. Kendala yang terjadi salah satunya yaitu peserta terkadang harus menunggu agak lama agar perubahan yang dilakukan pada Github page terlihat. Peserta beberapa kali merasa kebingungan apakah memang Github page nya belum ke load atau salah pada code yang ditulis. Salah satu alasan peserta membuat Github page yang minimalis karena keterbatasan waktu di mana peserta lebih banyak memahami cara pembuatan Github page dibandingkan membuatnya. Namun, peserta mendapatkan pengetahuan baru mengenai Github pages themes salah satunya yaitu Jekyll, Markdown untuk mengatur style dari text sesuai keinginan, YAML bahasa serialisasi data yang dapat dibaca manusia, dan Front matter untuk mengatur variabel dan metadata seperti judul dan tata letak, halaman atau posting di situs peserta.
+
+
+F. GNUPG
+Penggunaan versi gpg yang berbeda membuat peserta bingung. Terdapat perbedaan fungsi apabila menggunakan versi gpg yang berbeda sehingga peserta hanya mengikuti instruksi yang berikan tanpa mengerti perbedaan fungsi dari versi gpg yang digunakan. Untuk gpg2 sepertinya tidak melihat kunci pribadi yang gpg melihatnya. Misalnya, gpg2 --list-secret-keys tidak memberikan output, tetapi gpg --list-secret-keys memberikan output. Beberapa peserta mengalami kesalahan pada berkas 0000-mypub.txt, salah satunya karena peserta membuat berkas secara langsung di github dan copy paste isi berkas dari badak sehingga ada beberapa bagian yang terpotong dan tidak terbaca oleh sistem. Selain itu, beberapa peserta memiliki key lebih dari 1 key dan mencantumkan lebih dari 1 key pada berkas 0000-mypub.txt , sedangkan yang perintah hanya menginginkan 1 key dan harus key tersebut yang akan dipakai. Kesalahan lainnya yaitu terdapat secret key pada 0000-mypub.txt karena secret key hanya boleh diakses oleh pemilik kunci, sedangkan berkas perlu dibaca oleh dosen. Gpg ini dapat digunakan untuk enkripsi baik dengan atau tanpa tanda tangan, sehingga mahasiswa perlu lebih teliti membaca perintah yang diberikan untuk membedakan berkas yang perlu ditandatangani juga atau hanya enkripsi saja. Pada pelakanaan UAS OS, peserta juga mendapatkan pemahaman baru mengenai clear sign yaitu peserta dapat menandatangani berkas dalam bentuk clear text.
+
+
+G. SHA1SUM dan SHA1SUM.asc
+Mayoritas peserta baru mengenal dan mengetahui tentang sha1sum dan sha1sum.asc pada saat pelaksanaan UAS OS. sha1sum merupakan berkas yang menyimpan hash berkas-berkas yang diupload di GitHub. sha1sum.asc merupakan berkas dimana berisi sebuah hasil enkripsi SHA1SUM yang nantinya dapat diverifikasi dan didekripsi (oleh yang berhak) untuk melihat informasi asli yang ada. sebelum pelaksanaan UAS OS, dosen memberikan arahan untuk memahami mengenai gpg dan sha1sum, serta memberikan contoh penggunaan keduanya melalui forum diskusi SCELE. Namun, mayoritas peserta hanya mengikuti contoh tanpa memahami terlebih dahulu penggunaan gpg dan sha1sum. sha1sum dan sha1sum.asc perlu dibuat ulang setiap ada perubahan. Beberapa peserta mengalami kesalahan pada sha1sum dan sha1sum.asc karena kurang mengerti kegunaan keduanya sehingga tidak membuat ulang setiap ada perubahan. 
+
+
+H. Race Condition
+Race condition terjadi awalnya pada saat absen yang dilakukan di forum SCELE untuk kebutuhan absen tiap minggunya selama masa pembelajaran jarak jauh. Kemudian, beberapa peserta memberi saran untuk absen melalui github. Awalnya absen cukup berjalan lancar karena waktu untuk absen cukup panjang sehingga peserta tidak terburu-buru untuk absen secara berbarengan. Namun, race condition tetap terjadi terutama saat absen untuk pelaksanaan UAS OS karena waktu absen yang cukup sempit.
+
+
+I. Absen
+Pada absen mingguan selama masa pembelajaran jarak jauh, beberapa peserta absen terlambat karena tidak mengetahui batasan waktu terakhir absen dan tidak melihat SCELE secara berkala. Selain itu, beberapa peserta menganggap lebih baik absen lebih lambat untuk menghindari race condition.
+
+
+J. SCELE
+Frekuensi peserta melihat SCELE sangat jarang karena adanya WhatsApp group sehingga peserta cenderung membuka SCELE apabila ada pemberitahuan melalui WhatsApp group. Peserta biasanya akan melihat SCELE apabila ingin absen dan melihat materi pada waktu pembelajaran di mana terjadi 2 kali seminggu, selain waktu pembelajaran peserta cenderung tidak melihat SCELE kecuali ada informasi penting yang disampaikan melalui WhatsApp Group.Terlalu banyak thread pada forum di scele terkadang membuat peserta kebingungan untuk mencari suatu informasi pada forum. Forum SCELE cukup baik penggunaannya untuk diskusi dan tanya jawab karena tidak akan hilang informasinya kecuali dihapus, serta pembahasan untuk kasus yang berbeda dapat dibuat dengan thread yang berbeda.
+
+
+K. WhatsApp group
+Penggunaan WhatsApp group cukup efektif untuk memberitahu terkait informasi penting. Hal ini dikarenakan WhatsApp group memberikan notifikasi apabila terdapat pesan masuk, sedangkan SCELE tidak memberikan notifikasi. Peserta cenderung cepat tanggap terhadap informasi apabila terdapat notifikasi. WhatsApp group kurang baik penggunaannya untuk diskusi dan tanya jawab karena pembahasan akan terus tertimbun apabila ada pesan masuk.
+
+
+L. Zoom
+Penggunaan zoom pada pelaksanaan mata kuliah OS genap 2020 hanya beberapa kali untuk sesi tanya jawab. Beberapa peserta cenderung lebih suka apabila materi atau demo disampaikan secara langsung melalui zoom. Hal ini dikarenakan mahasiswa dapat bertanya secara langsung apabila terdapat hal yang membingungkan dan dapat terjawab sampai jelas.
+
+
+M. Youtube
+Materi yang disampaikan mudah diterima, namun kurang banyak contoh demo yang diberikan. Contoh demo akan sangat berguna untuk pemahaman saat pelaksanaan UAS seperti pada mata kuliah OS genap 2020. Selain itu, peserta dapat mengulang kembali video apabila ingin memahami lebih dalam kapan saja.
+
+
+N. Email
+Penggunaan email sudah tepat untuk permasalahan penting yang bukan terkait materi pembelajaran. Penggunaan subjek [HELP] juga penting untuk menunjukkan bahwa email tersebut penting dan dapat membedakan dengan email lainnya.
+
+
+O. Scripting
+Scripting berfungsi untuk menyimpan sekumpulan instruksi pemrograman yang ditafsirkan pada saat runtime. Pada penggunaan di mata kuliah OS ini, hasil scripting juga dapat menjadi alat pengecekan bahwa peserta mengerjakan secara mandiri dan pada waktu yang benar. Namun, mayoritas peserta tidak memahami maksud dari langkah-langkah scripting sebelumnya sehingga peserta hanya mengikuti langkah-langkah yang diberikan dengan cara copy dan paste.
 
