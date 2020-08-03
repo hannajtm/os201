@@ -1,3 +1,4 @@
+REV05 Mon Aug 03 11:00:00 WIB 2020
 REV04 Thu Jul 30 12:59:00 WIB 2020
 REV03 Wed Jul 29 17:51:00 WIB 2020
 REV02 Tue Jul 28 15:30:00 WIB 2020
@@ -325,4 +326,16 @@ Penggunaan email sudah tepat untuk permasalahan penting yang bukan terkait mater
 
 O. Scripting
 Scripting berfungsi untuk menyimpan sekumpulan instruksi pemrograman yang ditafsirkan pada saat runtime. Pada penggunaan di mata kuliah OS ini, hasil scripting juga dapat menjadi alat pengecekan bahwa peserta mengerjakan secara mandiri dan pada waktu yang benar. Namun, mayoritas peserta tidak memahami maksud dari langkah-langkah scripting sebelumnya sehingga peserta hanya mengikuti langkah-langkah yang diberikan dengan cara copy dan paste.
+
+
+P. Outside
+Beberapa peserta menggunakan tempat kerja di luar git salah satu alasannya agar memiliki cadangan berkas. Apabila berkas di git terhapus, maka peserta masih memiliki cadangan berkas tersebut.
+
+
+Q. Akun Github OS201 bersama
+Sebelum adanya akun github OS201 bersama, peserta mengalami race condition pada saat absen mingguan yang dilakukan di SCELE. Setelah penggunaan akun github OS201 bersama ini menjadi lebih baik karena push bisa saja ditolak apabila dilakukan bersamaan dengan peserta lain. Akun ini juga menjadi sarana pembentukan kelompok untuk UAS. Beberapa peserta terlambat mendaftarkan dirinya sebagai anggota salah satunya karena sulit untuk menemukan kelompok atau sulit untuk dihubungi. Selain itu, akun ini menjadi sarana untuk pemberitahuan informasi mengenai UAS dan submit berkas yang berkaitan dengan UAS.
+
+
+R. Pembentukan kelompok
+Pembentukan kelompok berdasarkan peserta dan boleh lintas kelas. Hal ini sudah cukup baik sehingga peserta dapat memilih teman kelompok yang nyaman untuk bekerja sama. Namun, pembentukan kelompok semacam ini juga mempunyai kekurangan yaitu peserta yang tidak memiliki banyak teman sulit untuk menemukan kelompok. Selain itu, pembentukan kelompok seperti ini dapat memicu terbentuknya kelompok yang dominan dalam pemahaman materi dan dapat terbentuk kelompok yang berisi kurang pemahaman materinya sehingga kelompok yang kurang pemahaman materi tersebut menjadi kesulitan. Proses pendaftaran kelompok juga masih belum efektif karena setiap orang harus mendaftarkan dirinya sendiri melalui github bersama. Hal ini menyebabkan pembentukan kelompok terlalu lama sehingga perlu memerlukan waktu sampai 1 hari. Apabila hanya ketua kelompok atau perwakilan saja yang mendaftarkan, maka proses pembentukan kelompok akan lebih cepat.
 
