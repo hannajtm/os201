@@ -1,3 +1,6 @@
+REV01 Thu Aug 08 21:22:00 WIB 2020
+==================================
+
 Hanna Jannatunnaiim / B / 1806146985 / hannajtm
 
 Pelaksanaan OS201
@@ -104,4 +107,11 @@ Pelaksanaan UAS Teori Bahasa dan Automata menggunakan server aren. Soal pembuata
 7) Soal mata kuliah Sistem Cerdas hanya terdiri dari esai Diberikan waktu 2 jam 45 menit untuk mengerjakan serta 15 menit untuk mengunggah jawaban. Bersifat closed book dengan sebelumnya membuat perjanjian untuk berlaku jujur selama ujian. Selama ujian, semua berkas perkuliahan yang ada di SCELE di hide.
 
 8) Soal mata kuliah Analisis numerik terdiri dari esai dan membuat program. Soal esai dikelompokkan dengan topik masing-masing dengan tiap kelompok soal terdiri atas banyak soal. Akan tetapi, tiap topik memiliki nilai maksimum sehingga tidak perlu dikerjakan semuanya. Selain itu, terdapat banyak soal yang belum pernah diajarkan sebelumnya sehingga mahasiswa dituntut untuk mencari solusi di Google. Waktu pengerjaan adalah 3 jam.
+
+
+
+Saran Pelaksanaan OS201
+========================
+Penggunaan Zoom untuk tanya jawab demo dan materi. Salah satu contohnya mata kuliah Statistika dan Probabilitas yang mengadakan zoom meeting setiap waktu perkuliahan dan melakukan perekaman video
+
 
